@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - J</title>
+
+    <!-- Estilo de fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+
+    <!-- CSS estilo -->
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="shortcut icon" href="./imagenes/pngwing.com.png">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a class="logo-nav" href="../index.html" ><img src="../imagenes/logo-jengibre.png" alt="logo" height="100" width="100"></a>
+        <nav class="navbar">
+            <div class="navlinks">
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li> 
+                    <li>
+                        <a href="../paginas/productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/recetas.html">Recetas</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="../paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Formulario de contacto y ubicación -->
+    <main class="main4">
+        <section class="main4__section1">
+            <div class="main4__section1_titulo">
+                <h2>Estamos felices de leerte</h2>
+            </div>
+            <div class="main4__section1_form">
+                <form action="#">
+                    <label class="main4__section1_form_nombre" for="nombre">Nombre completo: </label>
+                    <input class="main4__section1_form_text" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre completo." required>
+                    <label class="main4__section1_form_correo" for="email1">Correo: </label>
+                    <input class="main4__section1_form_ingmail" type="email" name="email" id="email" placeholder="Ingrese su correo." required>
+                    <label class="main4__section1_form_comentario" for="comentario">Tu comentario: </label>
+                    <textarea class="main4__section1_form_txtarea" name="comentario" id="comentario" cols="60" rows="5" required></textarea>
+                    <input class="main4__section1_form_boton" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+        <section class="main4__section2">
+            <h2 class="main4__section2_titulo1">
+                Nuestra Ubicación, ven a conocernos!
+            </h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.443577850703!2d-66.85763208434895!3d-29.415829309284227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427dbd1f6c9f8ff%3A0x6239f3850aa14fb7!2sJengibre%20Almac%C3%A9n%20Saludable%20LR!5e0!3m2!1ses-419!2sar!4v1657241305448!5m2!1ses-419!2sar" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="main4__section2_map"></iframe>
+        </section>
+    </main>
+
+    <!-- Footer con Direccion, Horarios, Redes Sociales y Copyrights  -->
+    <footer class="footer">
+        <div class="datos_contenedor">
+            <div class="direccion">
+                <h3>Dirección</h3>
+                <span>Calle Falsa 123</span>
+            </div>
+            <div class="horario">
+                <h3>Estamos abiertos de</h3>
+                <h3>Lunes a Sabados:</h3>
+                <span>9 a 13 hs</span>
+                <span>17 a 22 hs</span>
+            </div>
+            <div class="telefono">            
+                <h3>Tel: 3804-xxxxxx</h3>
+            </div>
+        </div>
+        <div class="logo2">
+            <img src="../Imagenes/logo-jengibre.png" alt="J" width="100" height="100">
+        </div>
+        <div class="redes_sociales">
+            <h3>Redes Sociales</h3>
+            <nav  class="redes_sociales__nav">
+                <a href="https://facebook.com/" target="_blank"><img src="../imagenes/iconos redes sociales/facebook.png" alt="Facebook" height="40px"></a>
+                <a href="https://instagram.com/" target="_blank"><img src="../imagenes/iconos redes sociales/instagram.png" alt="Instagram" height="40px"></a>
+                <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="../imagenes/iconos redes sociales/whatsapp.png" alt="Whatsapp" height="40px"></a>
+            </nav>
+        </div>
+        <div class="copyrights">
+            <span>&#169 Todos los derechos reservados</span>
+        </div>
+    </footer>
+</body>
+
+</html>
