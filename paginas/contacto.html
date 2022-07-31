@@ -12,21 +12,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
 
+    <link rel="shortcut icon" href="./imagenes/pngwing.com.png">
+
+    <!-- Link framework Bootstrap -->
+    <link rel="stylesheet" href="../estilos/bootstrap.css">
+
     <!-- CSS estilo -->
     <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="shortcut icon" href="./imagenes/pngwing.com.png">
 </head>
 
 <body>
     <!-- Header -->
     <header class="header">
-        <a class="logo-nav" href="../index.html" ><img src="../imagenes/logo-jengibre.png" alt="logo" height="100" width="100"></a>
+        <a class="logo-nav" href="../index.html"><img src="../imagenes/logo-jengibre.png" alt="logo" height="100"
+                width="100"></a>
         <nav class="navbar">
             <div class="navlinks">
                 <ul>
                     <li>
                         <a href="../index.html">Inicio</a>
-                    </li> 
+                    </li>
                     <li>
                         <a href="../paginas/productos.html">Productos</a>
                     </li>
@@ -45,12 +50,35 @@
     </header>
 
     <!-- Formulario de contacto y ubicación -->
-    <main class="main4">
-        <section class="main4__section1">
-            <div class="main4__section1_titulo">
+    <main class="contacto">
+        <section class="contacto_seccion1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Estamos felices de leerte</h1>
+                    </div>
+                    <div class="col-12">
+                        <form action="">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Correo:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Escribe tu correo.">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Comentario:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="boton_form">
+                                <button type="button" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="main4__section1_titulo">
                 <h2>Estamos felices de leerte</h2>
             </div>
-            <div class="main4__section1_form">
+            <div>
                 <form action="#">
                     <label class="main4__section1_form_nombre" for="nombre">Nombre completo: </label>
                     <input class="main4__section1_form_text" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre completo." required>
@@ -60,14 +88,31 @@
                     <textarea class="main4__section1_form_txtarea" name="comentario" id="comentario" cols="60" rows="5" required></textarea>
                     <input class="main4__section1_form_boton" type="submit" value="Enviar">
                 </form>
-            </div>
+            </div> -->
         </section>
-        <section class="main4__section2">
-            <h2 class="main4__section2_titulo1">
+        <section class="contacto_seccion2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h2>
+                            Nuestra Ubicación, ven a conocernos!
+                        </h2>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <iframe
+                            class="contacto_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.443577850703!2d-66.85763208434895!3d-29.415829309284227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427dbd1f6c9f8ff%3A0x6239f3850aa14fb7!2sJengibre%20Almac%C3%A9n%20Saludable%20LR!5e0!3m2!1ses-419!2sar!4v1657241305448!5m2!1ses-419!2sar"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- <h2>
                 Nuestra Ubicación, ven a conocernos!
             </h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.443577850703!2d-66.85763208434895!3d-29.415829309284227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427dbd1f6c9f8ff%3A0x6239f3850aa14fb7!2sJengibre%20Almac%C3%A9n%20Saludable%20LR!5e0!3m2!1ses-419!2sar!4v1657241305448!5m2!1ses-419!2sar" 
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="main4__section2_map"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.443577850703!2d-66.85763208434895!3d-29.415829309284227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9427dbd1f6c9f8ff%3A0x6239f3850aa14fb7!2sJengibre%20Almac%C3%A9n%20Saludable%20LR!5e0!3m2!1ses-419!2sar!4v1657241305448!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe> -->
         </section>
     </main>
 
@@ -84,7 +129,7 @@
                 <span>9 a 13 hs</span>
                 <span>17 a 22 hs</span>
             </div>
-            <div class="telefono">            
+            <div class="telefono">
                 <h3>Tel: 3804-xxxxxx</h3>
             </div>
         </div>
@@ -93,16 +138,24 @@
         </div>
         <div class="redes_sociales">
             <h3>Redes Sociales</h3>
-            <nav  class="redes_sociales__nav">
-                <a href="https://facebook.com/" target="_blank"><img src="../imagenes/iconos redes sociales/facebook.png" alt="Facebook" height="40px"></a>
-                <a href="https://instagram.com/" target="_blank"><img src="../imagenes/iconos redes sociales/instagram.png" alt="Instagram" height="40px"></a>
-                <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="../imagenes/iconos redes sociales/whatsapp.png" alt="Whatsapp" height="40px"></a>
+            <nav class="redes_sociales__nav">
+                <a href="https://facebook.com/" target="_blank"><img
+                        src="../imagenes/iconos redes sociales/facebook.png" alt="Facebook" height="40px"></a>
+                <a href="https://instagram.com/" target="_blank"><img
+                        src="../imagenes/iconos redes sociales/instagram.png" alt="Instagram" height="40px"></a>
+                <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img
+                        src="../imagenes/iconos redes sociales/whatsapp.png" alt="Whatsapp" height="40px"></a>
             </nav>
         </div>
         <div class="copyrights">
             <span>&#169 Todos los derechos reservados</span>
         </div>
     </footer>
+
+    <!-- LINK DE SCRIPT BOOTSTRAP  -->
+    <script src="./js/bootstrap.bundle.js"></script>
+
+
 </body>
 
 </html>
