@@ -24,13 +24,14 @@
 <body>
     <!-- Header -->
     <header class="header">
-        <a class="logo-nav" href="./index.html" ><img src="./imagenes/logo-jengibre.png" alt="logo" height="100" width="100"></a>
+        <a class="logo-nav" href="./index.html"><img src="./imagenes/logo-jengibre.png" alt="logo" height="100"
+                width="100"></a>
         <nav class="navbar">
             <div class="navlinks">
                 <ul>
                     <li>
                         <a href="./index.html">Inicio</a>
-                    </li> 
+                    </li>
                     <li>
                         <a href="./paginas/productos.html">Productos</a>
                     </li>
@@ -59,7 +60,9 @@
                             Bienvenido a Jengibre
                         </h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim expedita architecto voluptatum! Optio facere perferendis ab repudiandae dolores, veniam modi officiis quis consequatur minima quibusdam!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim expedita architecto
+                            voluptatum! Optio facere perferendis ab repudiandae dolores, veniam modi officiis quis
+                            consequatur minima quibusdam!
                         </p>
                         <a href="#">Leer Más</a>
                     </div>
@@ -68,7 +71,7 @@
 
             <!-- 6 imagnes de muestra de productos/recetas -->
             <div class="contenedor-productos">
-                <div class="titulo-productos"> 
+                <div class="titulo-productos">
                     <h1>Algunos de nuestros productos</h1>
                 </div>
                 <div class="img_productos">
@@ -85,7 +88,33 @@
         </section>
         <!-- Formulario de suscripcion -->
         <section class="formulario">
-            <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Enterate de todas nuestras novedades!</h2>
+                    </div>
+                    <div class="col-12">
+                        <form action="#">
+                            <div class="mb-3">
+                                <label for="correoInicio" class="form-label">Tu Correo</label>
+                                <input type="email" class="form-control" id="correoInicio"
+                                    placeholder="Escribe tu Correo." required>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="acepto" id="flexCheckDefault"
+                                    required>
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Aceptar terminos y condiciones
+                                </label>
+                            </div>
+                            <div class="btn_inicio">
+                                <button type="submit" class="btn btn-primary">Suscribirse</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- <div>
                 <h2>
                     Enterate de todas nuestras novedades!
                 </h2>
@@ -98,7 +127,7 @@
                     </div>
                     <input class="btn-sub" type="submit" value="Suscribirse">
                 </form>
-            </div>
+            </div> -->
         </section>
     </main>
 
@@ -115,7 +144,7 @@
                 <span>9 a 13 hs</span>
                 <span>17 a 22 hs</span>
             </div>
-            <div class="telefono">            
+            <div class="telefono">
                 <h3>Tel: 3804-xxxxxx</h3>
             </div>
         </div>
@@ -124,17 +153,20 @@
         </div>
         <div class="redes_sociales">
             <h3>Redes Sociales</h3>
-            <nav  class="redes_sociales__nav">
-                <a href="https://facebook.com/" target="_blank"><img src="./imagenes/iconos redes sociales/facebook.png" alt="Facebook" height="40px"></a>
-                <a href="https://instagram.com/" target="_blank"><img src="./imagenes/iconos redes sociales/instagram.png" alt="Instagram" height="40px"></a>
-                <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img src="./imagenes/iconos redes sociales/whatsapp.png" alt="Whatsapp" height="40px"></a>
+            <nav class="redes_sociales__nav">
+                <a href="https://facebook.com/" target="_blank"><img src="./imagenes/iconos redes sociales/facebook.png"
+                        alt="Facebook" height="40px"></a>
+                <a href="https://instagram.com/" target="_blank"><img
+                        src="./imagenes/iconos redes sociales/instagram.png" alt="Instagram" height="40px"></a>
+                <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img
+                        src="./imagenes/iconos redes sociales/whatsapp.png" alt="Whatsapp" height="40px"></a>
             </nav>
         </div>
         <div class="copyrights">
             <span>&#169 Todos los derechos reservados</span>
         </div>
     </footer>
-    
+
     <!-- LINK DE SCRIPT BOOTSTRAP  -->
     <script src="./js/bootstrap.bundle.js"></script>
 
