@@ -162,35 +162,41 @@ body {
 }
 
 /* ESTILO PRODUCTOS */
-.main1 {
-    padding: 50px 0px 150px 0px;
-}
- 
-.main1__productos_titulo {
-     font-size: 35px;
-     font-family: 'League Gothic', sans-serif;
-     text-transform: uppercase;
-     padding: 100px 0px 50px 46%;
-}
- 
-.main1__productos_img {
-     background-color: black;
-     padding: 50px 0px 50px 55px;
-     position: relative;
-}
- 
-.main1__productos_imgp {
-     border-radius: 5% 0% 5% 0%;
-}
- 
-.main1__productos_boton {
-     font-family: 'League Gothic', sans-serif;
-     font-size: 25px;
-     text-transform: uppercase;
-     margin: 0px 0px 0px 908px;
+.menu__contenedor {
+    max-width: 1300px;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+.menu__titulo {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.item {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    position: relative;
+}
+.item__image {
+    height: 250px;
+    position: absolute;
+    left: 3rem;
+    bottom: 1.5rem;
+}
 
 /* ESTILO RECETAS */
 .main2{

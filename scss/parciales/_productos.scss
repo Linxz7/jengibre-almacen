@@ -25,3 +25,15 @@
      text-transform: uppercase;
      margin: 0px 0px 0px 908px;
 }
+
+$degradados: (
+     d1: linear-gradient(153deg, #7fae40, #ffffff),
+     d2: linear-gradient(153deg, #7fae40, #ffffff),
+     d3: linear-gradient(153deg, #7fae40, #ffffff)
+     );
+     
+@for $i from 1 through 2 {
+     .item--d#{$i} {
+          background-image: map-get($degradados, d+$i);
+     }
+}
