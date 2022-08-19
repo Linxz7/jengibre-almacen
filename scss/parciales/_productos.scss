@@ -1,37 +1,73 @@
-.main1 {
-    padding: 50px 0px 150px 0px;
-}
- 
-.main1__productos_titulo {
-     font-size: 35px;
-     font-family: 'League Gothic', sans-serif;
-     text-transform: uppercase;
-     padding: 100px 0px 50px 46%;
-}
- 
-.main1__productos_img {
-     background-color: black;
-     padding: 50px 0px 50px 55px;
+.menu1 {
+     padding: 3rem 0;
+   }
+   
+   .menu__contenedor {
+     max-width: 1200px;
+     margin: 0 auto;
+     margin-top: 100px;
+     margin-bottom: 100px;
+   }
+   
+   .menu__titulo {
+     font-size: 60px;
+     text-align: center;
+     margin-bottom: 2rem;
+   }
+   
+   .menu__categoria {
+     text-decoration: underline;
+     text-decoration-color: #7fae40;
+     padding: 1rem 0;
+   }
+   
+   .items {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     gap: 1rem;
+     justify-content: center;
+   }
+   
+   .item {
+     background-color: #00704A;
+     width: 300px;
+     height: 300px;
+     color: #black;
+     border-radius: 2rem;
+     padding: 1rem;
      position: relative;
-}
- 
-.main1__productos_imgp {
-     border-radius: 5% 0% 5% 0%;
-}
- 
-.main1__productos_boton {
-     font-family: 'League Gothic', sans-serif;
-     font-size: 25px;
-     text-transform: uppercase;
-     margin: 0px 0px 0px 908px;
-}
+   }
+   
+   .item__name {
+     font-size: 18px;
+     letter-spacing: 1px;
+   }
+   
+   .item__image {
+     position: absolute;
+     bottom: 2rem;
+     left: 5rem;
+     height: 200px;
+   }
+
 
 $degradados: (
-     d1: linear-gradient(153deg, #7fae40, #ffffff),
-     d2: linear-gradient(153deg, #7fae40, #ffffff),
-     d3: linear-gradient(153deg, #7fae40, #ffffff)
-     );
-     
+     d1: linear-gradient(35deg, #7fae40, #ffffff),
+     d2: linear-gradient(35deg, #7fae40, #ffffff),
+     d3: linear-gradient(35deg, #7fae40, #ffffff),
+     d4: linear-gradient(35deg, #7fae40, #ffffff),
+     d5: linear-gradient(35deg, #7fae40, #ffffff),
+     d6: linear-gradient(35deg, #7fae40, #ffffff),
+     d7: linear-gradient(35deg, #7fae40, #ffffff),
+     d8: linear-gradient(35deg, #7fae40, #ffffff),
+     d9: linear-gradient(35deg, #7fae40, #ffffff),
+     d10: linear-gradient(35deg, #7fae40, #ffffff),
+     d11: linear-gradient(35deg, #7fae40, #ffffff),
+     d12: linear-gradient(35deg, #7fae40, #ffffff),
+     d13: linear-gradient(35deg, #7fae40, #ffffff)
+);
+
 @for $i from 1 through 2 {
      .item--d#{$i} {
           background-image: map-get($degradados, d+$i);
