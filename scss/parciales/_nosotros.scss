@@ -1,66 +1,70 @@
 /* ESTILO NOSOTROS */
 .nosotros {
     margin: 200px 0;
-}
 
-.nosotros-titulo {
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-}
+    .nosotros-titulo {
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
 
-.nosotros-sub1 {
-    width: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 100px;
-    font-size: 1rem;
-}
+        .nosotros-titulo h1 {
+            font-size: 35px;
+        }
+    }
+    
+    .nosotros-sub1 {
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 1rem;
+    }
+    
+    .nosotros-pre1 {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 40px 0;
+        justify-content: center;
+        align-items: center;
 
-.nosotros-pre1 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin: 40px 0;
-    justify-content: center;
-    align-items: center;
-}
+        .nosotros-pre1 p {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-right: 16px;
+        }
+        
+        .nosotros-pre1 img {
+            margin-left: 16px;
+        }
+    }
+    
+    
+    .nosotros-sub2 {
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 100px;
+        font-size: 1rem;
+    }
+    
+    .nosotros-pre2 {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        margin: 40px 0;
+        align-items: center;
 
-.nosotros-pre1 p {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-right: 16px;
-}
-
-.nosotros-pre1 img {
-    margin-left: 16px;
-}
-
-.nosotros-sub2 {
-    width: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 100px;
-    font-size: 1rem;
-}
-
-.nosotros-pre2 {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    margin: 40px 0;
-    align-items: center;
-}
-
-.nosotros-pre2 p {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 5px 0 0 16px;
-}
-
-.nosotros-pre2 img {
-    margin-right: 16px;
+        .nosotros-pre2 p {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin: 5px 0 0 16px;
+        }
+        
+        .nosotros-pre2 img {
+            margin-right: 16px;
+        }
+    }
 }

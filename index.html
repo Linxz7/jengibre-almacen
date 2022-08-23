@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="almacen, saludable, jengibre, ecotienda, argentina, la-rioja">
-    <meta name="description" content="Jengibre, tienda de alimentos saludables, cosmeticos naturales, alimentos organicos y suplementos dietarios.">
+    <meta name="description"
+        content="Jengibre, tienda de alimentos saludables, cosmeticos naturales, alimentos organicos y suplementos dietarios.">
     <title>Jengibre</title>
 
     <!-- Estilo de fuente -->
@@ -72,75 +73,99 @@
             </div>
 
             <!-- 6 imagnes de muestra de productos/recetas -->
-            <div class="contenedor-productos">
-                <div class="titulo-productos">
-                    <h1>Algunos de nuestros productos</h1>
-                </div>
-                <div class="img_productos">
-                    <img src="./imagenes/productos/algas-nory.png" alt="Algas nory" height="400">
-                    <img src="./imagenes/productos/aceite-coco.png" alt="Aceite de coco" height="400">
-                    <img src="./imagenes/productos/alfajor1.png" alt="Alfajor" height="400">
-                </div>
-                <div class="img_productos">
-                    <img src="./imagenes/productos/chocolate1.png" alt="Chocolate" height="400">
-                    <img src="./imagenes/productos/premezcla-pancakes.png" alt="Premezcla de pancakes" height="400">
-                    <img src="./imagenes/productos/pasta-de-mani.png" alt="Pasta de maní" height="400">
-                </div>
-            </div>
-        </section>
-        <!-- Formulario de suscripcion -->
-        <section class="formulario">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1>Enterate de todas nuestras novedades!</h1>
+            <div class="muestra__contenedor">
+                <h1 class="muestra__titulo">Algunos de nuestros productos</h1>
+                <div class="items">
+                    <div class="item-contenedor">
+                        <h2 class="item__name">Aceite de Coco</h2>
+                        <img class="item__image" src="../imagenes/productos/Sin fondo/aceite-coco-removebg.png"
+                            alt="Aceite de Coco">
                     </div>
-                    <div class="col-12">
-                        <form action="#">
-                            <div class="mb-3">
-                                <label for="correoInicio" class="form-label">Tu Correo</label>
-                                <input type="email" class="form-control" id="correoInicio"
-                                    placeholder="Escribe tu Correo." required>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="acepto" id="flexCheckDefault"
-                                    required>
-                                <label class="form-check-label" for="flexCheckDefault">
-                                    Aceptar terminos y condiciones
-                                </label>
-                            </div>
-                            <div class="btn_inicio">
-                                <button type="submit" class="btn btn-primary">Suscribirse</button>
-                            </div>
-                        </form>
+                    <div class="item-contenedor">
+                        <h2 class="item__name">Harina de Almendras</h2>
+                        <img class="item__image" src="../imagenes/productos/Sin fondo/harina-almendras-removebg.png"
+                            alt="Harina de Almendras">
+                    </div>
+                    <div class="item-contenedor">
+                        <h2 class="item__name">Harina de Avena</h2>
+                        <img class="item__image" src="../imagenes/productos/Sin fondo/harina-avena-removebg.png"
+                            alt="Harina de Avena">
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="item-contenedor">
+                        <h2 class="item__name">Harina de Trigo Integral</h2>
+                        <img class="item__image" src="../imagenes/productos/Sin fondo/harina-trigo-int-removebg.png"
+                            alt="Harina de Trigo Integral">
+                    </div>
+                    <div class="item-contenedor">
+                        <h2 class="item__name">Harina de Quinoa</h2>
+                        <img class="item__image" src="../imagenes/productos/Sin fondo/harina-quinoa-removebg.png"
+                            alt="Harina de Quinoa">
+                    </div>
+                    <div class="item-contenedor">
+                        <h2 class="item__name">Té de Boldo</h2>
+                        <img class="item__image" src="../imagenes/productos/Sin fondo/te-boldo-removebg.png"
+                            alt="Té de Boldo">
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Formulario de suscripcion -->
+    <section class="formulario">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Enterate de todas nuestras novedades!</h1>
+                </div>
+                <div class="col-12">
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="correoInicio" class="form-label">Tu Correo</label>
+                            <input type="email" class="form-control" id="correoInicio" placeholder="Escribe tu Correo."
+                                required>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="acepto" id="flexCheckDefault"
+                                required>
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Aceptar terminos y condiciones
+                            </label>
+                        </div>
+                        <div class="btn_inicio">
+                            <button type="submit" class="btn btn-primary">Suscribirse</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
     <!-- Footer con Direccion, Horarios, Redes Sociales y Copyrights  -->
     <footer class="footer">
         <div class="datos_contenedor">
             <div class="direccion">
-                <em>Dirección</em>
+                <h1>Dirección</h1>
                 <span>Calle Falsa 123</span>
             </div>
             <div class="horario">
-                <h3>Estamos abiertos de</h3>
-                <h3>Lunes a Sabados:</h3>
+                <h1>Estamos abiertos de</h1>
+                <h2>Lunes a Sabados:</h2>
                 <span>9 a 13 hs</span>
                 <span>17 a 22 hs</span>
             </div>
             <div class="telefono">
-                <h3>Tel: 3804-xxxxxx</h3>
+                <h1>Tel: 3804-xxxxxx</h1>
             </div>
         </div>
         <div class="logo2">
             <img src="./imagenes/logo-jengibre-SF.png" alt="J" width="100" height="100">
         </div>
         <div class="redes_sociales">
-            <h3>Redes Sociales</h3>
+            <h1>Redes Sociales</h1>
             <nav class="redes_sociales__nav">
                 <a href="https://facebook.com/" target="_blank"><img src="./imagenes/iconos redes sociales/facebook.png"
                         alt="Facebook" height="40px"></a>

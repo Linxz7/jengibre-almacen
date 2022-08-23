@@ -51,19 +51,19 @@
 }
 
 $degradados: (
-     d1: linear-gradient(35deg, #7fae40, #ffffff),
-     d2: linear-gradient(35deg, #7fae40, #ffffff),
-     d3: linear-gradient(35deg, #7fae40, #ffffff),
-     d4: linear-gradient(35deg, #7fae40, #ffffff),
-     d5: linear-gradient(35deg, #7fae40, #ffffff),
-     d6: linear-gradient(35deg, #7fae40, #ffffff),
-     d7: linear-gradient(35deg, #7fae40, #ffffff),
-     d8: linear-gradient(35deg, #7fae40, #ffffff),
-     d9: linear-gradient(35deg, #7fae40, #ffffff),
-     d10: linear-gradient(35deg, #7fae40, #ffffff),
-     d11: linear-gradient(35deg, #7fae40, #ffffff),
-     d12: linear-gradient(35deg, #7fae40, #ffffff),
-     d13: linear-gradient(35deg, #7fae40, #ffffff)
+     d1: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d2: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d3: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d4: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d5: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d6: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d7: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d8: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d9: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d10: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d11: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d12: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
+     d13: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40)
 );
 
 @for $i from 1 through 2 {
