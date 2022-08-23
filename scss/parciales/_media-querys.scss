@@ -1,5 +1,8 @@
+/* MEDIA QUERIES */
+
 @media (max-width: 599px) {
  
+    
     /* HEADER, PAGINA INICIO Y FOOTER */
     .header{
         flex-direction: column;
@@ -87,7 +90,20 @@
         margin: 10px 0;
     }
     
+    /* PAGINA PRODUCTOS  */
+    
+    .menu__titulo {
+        font-size: 25px;
+        width: 100%;
+    }
+
+    /* PAGINA RECETAS */
+    .recetas-videos {
+        width: 100%;
+    }
+
     /* PAGINA NOSOTROS */
+
     .nosotros-pre1 {
         flex-direction: column;
         text-align: center;
@@ -131,6 +147,7 @@
         margin: 0;
         width: 100%;
     }
+
 
     /* PAGINA CONTACTO */
     .contacto {

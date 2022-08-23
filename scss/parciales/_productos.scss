@@ -1,56 +1,54 @@
-.menu1 {
-     padding: 3rem 0;
-   }
-   
-   .menu__contenedor {
-     max-width: 1200px;
-     margin: 0 auto;
-     margin-top: 100px;
-     margin-bottom: 100px;
-   }
-   
-   .menu__titulo {
-     font-size: 60px;
-     text-align: center;
-     margin-bottom: 2rem;
-   }
-   
-   .menu__categoria {
-     text-decoration: underline;
-     text-decoration-color: #7fae40;
-     padding: 1rem 0;
-   }
-   
-   .items {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     gap: 1rem;
-     justify-content: center;
-   }
-   
-   .item {
-     background-color: #00704A;
-     width: 300px;
-     height: 300px;
-     color: #black;
-     border-radius: 2rem;
-     padding: 1rem;
-     position: relative;
-   }
-   
-   .item__name {
-     font-size: 18px;
-     letter-spacing: 1px;
-   }
-   
-   .item__image {
-     position: absolute;
-     bottom: 2rem;
-     left: 5rem;
-     height: 200px;
-   }
+/* ESTILO PRODUCTOS */
+.menu {
+  padding: 3rem 0;
+}
 
+.menu__contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu__titulo {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.menu__categoria {
+  text-decoration: underline;
+  text-decoration-color: #7fae40;
+  padding: 1rem 0;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.item {
+  background-color: #00704A;
+  width: 300px;
+  height: 300px;
+  color: #black;
+  border-radius: 2rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.item__name {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.item__image {
+  position: absolute;
+  bottom: 2rem;
+  left: 5rem;
+  height: 200px;
+}
 
 $degradados: (
      d1: linear-gradient(35deg, #7fae40, #ffffff),
