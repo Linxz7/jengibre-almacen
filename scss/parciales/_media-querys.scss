@@ -31,6 +31,10 @@
     .info h1 {
         font-size: 30px;
     }
+    
+    .info p {
+        font-size: 20px;
+    }
 
     /* PAGINA PRODUCTOS  */
     .menu__titulo {
@@ -124,7 +128,7 @@
     .sub_ubicacion {
         margin: 1rem 0;
     }
-    
+
     /*FOOTER */
     .footer {
         flex-direction: column;
@@ -138,7 +142,7 @@
         margin: 50px 0 10px;
     }
 
-    
+
     .direccion span {
         margin: 2px;
     }

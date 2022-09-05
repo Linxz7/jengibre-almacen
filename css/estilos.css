@@ -1,643 +1,491 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-transform: initial;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: initial; }
 
 body {
-    font-family: 'Prompt', sans-serif;
-    font-weight: bold;
-    background-image: url(../imagenes/bg_bggenerator_com.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
+  background-image: url(../imagenes/bg_bggenerator_com.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 /* HEADER */
 .header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: black;
-    width: 100%;
-    padding: 16px;
-}
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+  width: 100%;
+  padding: 16px; }
 
 .navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
 
 .navlinks ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
+  margin: 0;
+  padding: 0;
+  display: flex; }
 
 .navlinks li {
-    list-style: none;
-}
+  list-style: none; }
 
 .navlinks li a {
-    text-decoration: none;
-    padding: 1rem;
-    color: white;
-
-    font-weight: bold;
-    font-size: 25px;
-}
-
-
-
-/* MAIN */
-/* PAGINA INICIO */
-.contenedor-banner {
-    width: 100%;
-    height: 750px;
-    animation: banner 20s infinite linear alternate;
-    background-size: 100% 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-@keyframes banner {
-
-    0%,
-    20% {
-        background-image: url(../imagenes/banner/reducido/img_1_org.jpg);
-    }
-
-    25%,
-    45% {
-        background-image: url(../imagenes/banner/reducido/img_2_org.jpg);
-    }
-
-    50%,
-    70% {
-        background-image: url(../imagenes/banner/reducido/img_3.jpg);
-    }
-
-    75%,
-    100% {
-        background-image: url(../imagenes/banner/reducido/img_4_org.jpg);
-    }
-}
-
-.capa {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-.info {
-    position: absolute;
-    top: 35%;
-    left: 25%;
-    z-index: 1;
-    width: 100%;
-    max-width: 1000px;
-    text-align: center;
-}
-
-.info h1 {
-    color: white;
-    font-size: 50px;
-    margin-bottom: 20px;
-    letter-spacing: 1px;
-}
-
-.info p {
-    color: white;
-    line-height: 1.5;
-    margin-bottom: 30px;
-}
-
-.info a {
-    color: black;
-    text-decoration: none;
-    background-color: #7fae40;
-    padding: 16px 37px;
-    display: inline-block;
-    border-radius: 50px;
-}
-
-.contenedor-banner img {
-    width: 100%;
-}
-
-.muestra__contenedor {
-    margin: 100px 0;
-    width: 100%;
-    height: 100%;
-}
-
-.muestra__titulo {
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    margin: 1rem;
-}
-
-.item-contenedor {
-    width: 300px;
-    height: 300px;
-    color: black;
-    border-radius: 2rem;
-}
-
-.item__name {
-    font-size: 18px;
-    letter-spacing: 1px;
-}
-
-.item__image {
-    height: 100%;
-    width: 100%;
-    transition: all 300ms;
-    position: relative;
-}
-
-.item__image:hover {
-    transform: scale(1.15);
-}
-
-.formulario {
-    background-color: #7fae40;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color: black;
-    padding: 2rem 0;
-}
-
-.col-12 .form_inicio {
-    margin: 1rem 0 0 0;
-}
-
-.btn_inicio button {
-    padding: 10px 30px;
-    border-radius: 50px;
-    background-color: black;
-    color: white;
-    margin: 20px 0 5px 0;
-    font-weight: bold;
-}
-
-/* PAGINA PRODUCTOS */
-.menu {
-    margin: 100px 0px;
-}
-
-.menu__contenedor {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.menu__titulo {
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.menu__categoria {
-    text-decoration: underline;
-    text-decoration-color: #7fae40;
-    padding: 1rem 0;
-}
-
-.items {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.item {
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-    color: black;
-    border-radius: 2rem;
-    padding: 1rem;
-    position: relative;
-}
-
-.item__name {
-    font-size: 18px;
-    letter-spacing: 1px;
-}
-
-/* PAGINA RECETAS */
-.main-recetas {
-    margin: 100px 0px;
-}
-
-.main-recetas h1 {
-    font-size: 35px;
-    text-align: center;
-    margin: 16px;
-}
-
-.recetas-contenedor {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.recetas {
-    text-align: center;
-}
-
-.recetas h2 {
-    margin: 1rem;
-}
-
-.recetas h3 {
-    margin: 1rem;
-}
-
-.recetas ul {
-    list-style: none;
-    margin: 30px;
-}
-
-.recetas span {
-    font-size: 18px;
-    text-decoration: underline 2px;
-    text-decoration-color: #7FAE40;
-}
-
-
-/* PAGINA NOSOTROS */
-.nosotros {
-    margin: 100px 0px;
-}
-
-.nosotros-titulo {
-    width: 100%;
-    text-align: center;
-}
-
-.nosotros-titulo h1 {
-    font-size: 35px;
-}
-
-.nosotros-sub1 {
-    width: 100%;
-    text-align: center;
-    margin-top: 100px;
-    font-size: 1rem;
-}
-
-.nosotros-pre1 {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    margin: 40px 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.nosotros-pre1 p {
-    font-weight: bold;
-    margin-right: 16px;
-}
-
-.nosotros-pre1 img {
-    margin-left: 16px;
-}
-
-.nosotros-sub2 {
-    width: 100%;
-    text-align: center;
-    margin-top: 100px;
-    font-size: 1rem;
-}
-
-.nosotros-pre2 {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    margin: 40px 0;
-    align-items: center;
-}
-
-.nosotros-pre2 p {
-    font-weight: bold;
-    margin: 5px 0 0 16px;
-}
-
-.nosotros-pre2 img {
-    margin-right: 16px;
-}
-
-
-
-/* PAGINA CONTACTO */
-.contacto {
-    margin: 100px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contacto_seccion1 {
-    background-color: #7FAE40;
-    color: black;
-    padding: 10px;
-    margin: 0 200px;
-    border-radius: 35px;
-}
-
-.row {
-    margin: 2rem;
-    align-items: center;
-}
-
-.col-12 h1 {
-    text-align: center;
-}
-
-.col-12 h2 {
-    text-align: center;
-}
-
-.col-12 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5px 0 0 0;
-}
-
-.col-12 .mb-3 {
-    width: 50%;
-}
-
-.mb-3 textarea {
-    height: 100px;
-}
-
-.form-control {
-    resize: none;
-}
-
-.boton_form button {
-    padding: 10px 30px;
-    border-radius: 50px;
-    background-color: black;
-    color: white;
-}
-
-.contacto_seccion2 {
-    padding: 10px;
-    margin: 0 200px;
-}
-
-.contacto_mapa {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 25px; }
 
 /* FOOTER */
 .footer {
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    color: white;
-}
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: white; }
 
 .datos_contenedor {
-    margin: 50px 0;
-}
+  margin: 50px 0; }
 
 .direccion,
 .horario,
 .telefono {
-    padding: 5px;
-}
+  padding: 5px; }
 
 div h1,
 h2 {
-    font-size: 25px;
-    font-weight: bold;
-}
+  font-size: 25px;
+  font-weight: bold; }
 
 .logo2 {
-    margin: 50px 50px 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
-}
+  margin: 50px 50px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
 
 .logo2 img {
-    height: 200px;
-    width: 200px;
-}
+  height: 200px;
+  width: 200px; }
 
 .redes_sociales {
-    margin: 70px 0;
-    text-align: center;
-}
+  margin: 70px 0;
+  text-align: center; }
 
 .redes_sociales__nav {
-    padding: 5px;
-}
+  padding: 5px; }
 
 .copyrights {
-    width: 100%;
-    text-align: center;
-    margin: 30px;
-}
+  width: 100%;
+  text-align: center;
+  margin: 30px; }
 
+/* PAGINA INICIO */
+.contenedor-banner {
+  width: 100%;
+  height: 750px;
+  animation: banner 20s infinite linear alternate;
+  background-size: 100% 100%;
+  position: relative;
+  display: flex;
+  justify-content: center; }
 
+@keyframes banner {
+  0%,
+  20% {
+    background-image: url(../imagenes/banner/reducido/img_1_org.jpg); }
+  25%,
+  45% {
+    background-image: url(../imagenes/banner/reducido/img_2_org.jpg); }
+  50%,
+  70% {
+    background-image: url(../imagenes/banner/reducido/img_3.jpg); }
+  75%,
+  100% {
+    background-image: url(../imagenes/banner/reducido/img_4_org.jpg); } }
+
+.capa {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4); }
+
+.info {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  z-index: 1;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center; }
+
+.info h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 1px; }
+
+.info p {
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  font-size: 25px; }
+
+.info a {
+  color: black;
+  text-decoration: none;
+  background-color: #7fae40;
+  padding: 16px 37px;
+  display: inline-block;
+  border-radius: 50px; }
+
+.contenedor-banner img {
+  width: 100%; }
+
+.muestra__contenedor {
+  margin: 100px 0;
+  width: 100%;
+  height: 100%; }
+
+.muestra__titulo {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem; }
+
+.item-contenedor {
+  width: 300px;
+  height: 300px;
+  color: black;
+  border-radius: 2rem; }
+
+.item__name {
+  font-size: 18px;
+  letter-spacing: 1px; }
+
+.item__image {
+  height: 100%;
+  width: 100%;
+  transition: all 300ms;
+  position: relative; }
+
+.item__image:hover {
+  transform: scale(1.15); }
+
+.formulario {
+  background-color: #7fae40;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  padding: 2rem 0; }
+
+.col-12 .form_inicio {
+  margin: 1rem 0 0 0; }
+
+.btn_inicio button {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  margin: 20px 0 5px 0;
+  font-weight: bold; }
+
+/* PAGINA PRODUCTOS */
+.menu {
+  margin: 100px 0px; }
+
+.menu__contenedor {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.menu__titulo {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.menu__categoria {
+  text-decoration: underline;
+  text-decoration-color: #7fae40;
+  padding: 1rem 0; }
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center; }
+
+.item {
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  color: black;
+  border-radius: 2rem;
+  padding: 1rem;
+  position: relative; }
+
+.item__name {
+  font-size: 18px;
+  letter-spacing: 1px; }
+
+/* PAGINA RECETAS */
+.main-recetas {
+  margin: 100px 0px; }
+
+.main-recetas h1 {
+  font-size: 35px;
+  text-align: center;
+  margin: 16px; }
+
+.recetas-contenedor {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
+.recetas {
+  text-align: center; }
+
+.recetas h2 {
+  margin: 1rem; }
+
+.recetas h3 {
+  margin: 1rem; }
+
+.recetas ul {
+  list-style: none;
+  margin: 30px; }
+
+.recetas span {
+  font-size: 18px;
+  text-decoration: underline 2px;
+  text-decoration-color: #7FAE40; }
+
+/* PAGINA NOSOTROS */
+.nosotros {
+  margin: 100px 0px; }
+
+.nosotros-titulo {
+  width: 100%;
+  text-align: center; }
+
+.nosotros-titulo h1 {
+  font-size: 35px; }
+
+.nosotros-sub1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1rem; }
+
+.nosotros-pre1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 40px 0;
+  justify-content: center;
+  align-items: center; }
+
+.nosotros-pre1 p {
+  font-weight: bold;
+  margin-right: 16px; }
+
+.nosotros-pre1 img {
+  margin-left: 16px; }
+
+.nosotros-sub2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1rem; }
+
+.nosotros-pre2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin: 40px 0;
+  align-items: center; }
+
+.nosotros-pre2 p {
+  font-weight: bold;
+  margin: 5px 0 0 16px; }
+
+.nosotros-pre2 img {
+  margin-right: 16px; }
+
+/* PAGINA CONTACTO */
+.contacto {
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.contacto_seccion1 {
+  background-color: #7FAE40;
+  color: black;
+  padding: 10px;
+  margin: 0 200px;
+  border-radius: 35px; }
+
+.row {
+  margin: 2rem;
+  align-items: center; }
+
+.col-12 h1 {
+  text-align: center; }
+
+.col-12 h2 {
+  text-align: center; }
+
+.col-12 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0 0 0; }
+
+.col-12 .mb-3 {
+  width: 50%; }
+
+.mb-3 textarea {
+  height: 100px; }
+
+.form-control {
+  resize: none; }
+
+.boton_form button {
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: black;
+  color: white; }
+
+.contacto_seccion2 {
+  padding: 10px;
+  margin: 0 200px; }
+
+.contacto_mapa {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; }
 
 /* MEDIA QUERIES */
 @media (max-width: 599px) {
-
-    /* HEADER */
-    .header {
-        flex-direction: column;
-    }
-
-    .navlinks ul {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .navlinks li {
-        margin: 5px
-    }
-
-    /* PAGINA INICIO */
-    .contenedor-banner {
-        max-width: 100%;
-        height: 400px;
-        background-size: 100% 100%;
-    }
-
-    .info {
-        top: 15%;
-        left: 0;
-        height: 100%;
-    }
-
-    .info h1 {
-        font-size: 30px;
-    }
-
-    /* PAGINA PRODUCTOS  */
-    .menu__titulo {
-        font-size: 25px;
-        width: 100%;
-    }
-
-    .menu__categoria {
-        text-align: center;
-    }
-
-    .item {
-        padding: 0;
-    }
-
-    /* PAGINA RECETAS */
-    .recetas-videos {
-        width: 100%;
-    }
-
-    /* PAGINA NOSOTROS */
-    .nosotros-pre1 {
-        flex-direction: column;
-        text-align: center;
-        justify-content: normal;
-    }
-
-    .nosotros-pre1 p {
-
-        font-weight: bold;
-        margin: 16px;
-    }
-
-    .nosotros-pre1 img {
-        margin: 0;
-        width: 100%;
-    }
-
-    .nosotros-sub2 {
-        width: 100%;
-        text-align: center;
-        margin-top: 100px;
-        font-size: 1rem;
-    }
-
-    .nosotros-pre2 {
-        flex-direction: column;
-        justify-content: normal;
-        align-items: center;
-    }
-
-    .nosotros-pre2 p {
-        font-weight: bold;
-        margin: 16px;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .nosotros-pre2 img {
-        margin: 0;
-        width: 100%;
-    }
-
-    /* PAGINA CONTACTO */
-    .contacto {
-        margin: 100px 0;
-    }
-
-    .contacto_seccion1 {
-        margin: 10px;
-        padding: 0;
-    }
-
-    .row {
-        margin: 1rem;
-    }
-
-    .col-12 form {
-        margin: 1rem;
-    }
-
-    .col-12 .mb-3 {
-        width: 100%;
-    }
-
-    .contacto_seccion2 {
-        padding: 0;
-        margin: 0;
-    }
-
-    .sub_ubicacion {
-        margin: 1rem 0;
-    }
-
-    /*FOOTER */
-    .footer {
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        align-content: center;
-        text-align: center;
-    }
-
-    .datos_contenedor {
-        margin: 50px 0 10px;
-    }
-
-
-    .direccion span {
-        margin: 2px;
-    }
-
-    .horario h3,
-    .horario span {
-        margin: 2px;
-    }
-
-    .logo2 {
-        margin: 10px 0;
-    }
-
-    .redes_sociales {
-        margin: 10px 0;
-    }
-}
+  /* HEADER */
+  .header {
+    flex-direction: column; }
+  .navlinks ul {
+    flex-direction: column;
+    text-align: center; }
+  .navlinks li {
+    margin: 5px; }
+  /* PAGINA INICIO */
+  .contenedor-banner {
+    max-width: 100%;
+    height: 400px;
+    background-size: 100% 100%; }
+  .info {
+    top: 15%;
+    left: 0;
+    height: 100%; }
+  .info h1 {
+    font-size: 30px; }
+  .info p {
+    font-size: 20px; }
+  /* PAGINA PRODUCTOS  */
+  .menu__titulo {
+    font-size: 25px;
+    width: 100%; }
+  .menu__categoria {
+    text-align: center; }
+  .item {
+    padding: 0; }
+  /* PAGINA RECETAS */
+  .recetas-videos {
+    width: 100%; }
+  /* PAGINA NOSOTROS */
+  .nosotros-pre1 {
+    flex-direction: column;
+    text-align: center;
+    justify-content: normal; }
+  .nosotros-pre1 p {
+    font-weight: bold;
+    margin: 16px; }
+  .nosotros-pre1 img {
+    margin: 0;
+    width: 100%; }
+  .nosotros-sub2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1rem; }
+  .nosotros-pre2 {
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center; }
+  .nosotros-pre2 p {
+    font-weight: bold;
+    margin: 16px;
+    text-align: center;
+    justify-content: center; }
+  .nosotros-pre2 img {
+    margin: 0;
+    width: 100%; }
+  /* PAGINA CONTACTO */
+  .contacto {
+    margin: 100px 0; }
+  .contacto_seccion1 {
+    margin: 10px;
+    padding: 0; }
+  .row {
+    margin: 1rem; }
+  .col-12 form {
+    margin: 1rem; }
+  .col-12 .mb-3 {
+    width: 100%; }
+  .contacto_seccion2 {
+    padding: 0;
+    margin: 0; }
+  .sub_ubicacion {
+    margin: 1rem 0; }
+  /*FOOTER */
+  .footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    text-align: center; }
+  .datos_contenedor {
+    margin: 50px 0 10px; }
+  .direccion span {
+    margin: 2px; }
+  .horario h3,
+  .horario span {
+    margin: 2px; }
+  .logo2 {
+    margin: 10px 0; }
+  .redes_sociales {
+    margin: 10px 0; } }
