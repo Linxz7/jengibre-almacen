@@ -1,6 +1,6 @@
-/* ESTILO PRODUCTOS */
+/* PAGINA PRODUCTOS */
 .menu {
-  padding: 3rem 0;
+  margin: 100px 0px;
 }
 
 .menu__contenedor {
@@ -9,7 +9,7 @@
 }
 
 .menu__titulo {
-  font-size: 60px;
+  font-size: 35px;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -29,10 +29,10 @@
 }
 
 .item {
-  background-color: #00704A;
+  background-size: cover;
   width: 300px;
   height: 300px;
-  color: #black;
+  color: black;
   border-radius: 2rem;
   padding: 1rem;
   position: relative;
@@ -41,33 +41,4 @@
 .item__name {
   font-size: 18px;
   letter-spacing: 1px;
-}
-
-.item__image {
-  position: absolute;
-  bottom: 2rem;
-  left: 5rem;
-  height: 200px;
-}
-
-$degradados: (
-     d1: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d2: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d3: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d4: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d5: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d6: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d7: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d8: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d9: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d10: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d11: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d12: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40),
-     d13: radial-gradient(ellipse 100% 150px, #ffffff, #7fae40)
-);
-
-@for $i from 1 through 2 {
-     .item--d#{$i} {
-          background-image: map-get($degradados, d+$i);
-     }
 }

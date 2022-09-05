@@ -1,38 +1,40 @@
-/* ESTILO RECETAS */
+/* PAGINA RECETAS */
 .main-recetas {
-  padding: 50px 0;
+  margin: 100px 0px;
+}
 
-  .main-recetas h1 {
-    text-align: center;
-    margin: 16px;
-  }
+.main-recetas h1 {
+  font-size: 35px;
+  text-align: center;
+  margin: 16px;
+}
 
-  .recetas-contenedor {
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+.recetas-contenedor {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
-    .recetas {
-      text-align: center;
+.recetas {
+  text-align: center;
+}
 
-      .recetas h2 {
-        margin: 1rem;
-      }
+.recetas h2 {
+  margin: 1rem;
+}
 
-      .recetas h3 {
-        margin: 1rem;
-      }
+.recetas h3 {
+  margin: 1rem;
+}
 
-      .recetas ul {
-        list-style: none;
-        margin: 30px;
-      }
+.recetas ul {
+  list-style: none;
+  margin: 30px;
+}
 
-      .recetas span {
-        font-size: 18px;
-        text-transform: uppercase;
-      }
-    }
-  }
+.recetas span {
+  font-size: 18px;
+  text-decoration: underline 2px;
+  text-decoration-color: #7FAE40;
 }

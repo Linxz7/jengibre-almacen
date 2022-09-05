@@ -4,27 +4,36 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #7fae40;
+    background-color: black;
     width: 100%;
     padding: 16px;
+}
 
-    .navlinks ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
+.navbar{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
 
-        .navlinks li {
-            list-style: none;
+.navlinks ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
+.navlinks li {
+    list-style: none;
+}
 
-            .navlinks li a {
-                text-decoration: none;
-                padding: 1rem;
-                color: black;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-size: 25px;
-            }
-        }
-    }
+.navlinks li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+
+    font-weight: bold;
+    font-size: 25px;
 }
