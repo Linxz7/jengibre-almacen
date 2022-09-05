@@ -7,9 +7,9 @@
     background-color: black;
     width: 100%;
     padding: 16px;
-}
-
-.navbar {
+  }
+  
+  .navbar {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -17,23 +17,22 @@
     justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-}
-
-.navlinks ul {
+  }
+  
+  .navlinks ul {
     margin: 0;
     padding: 0;
     display: flex;
-}
-
-.navlinks li {
+  }
+  
+  .navlinks li {
     list-style: none;
-}
-
-.navlinks li a {
+  }
+  
+  .navlinks li a {
     text-decoration: none;
     padding: 1rem;
     color: white;
-
     font-weight: bold;
     font-size: 25px;
-}
+  }

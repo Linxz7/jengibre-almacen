@@ -1,162 +1,188 @@
 /* MEDIA QUERIES */
-@media (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 599px) {
 
     /* HEADER */
     .header {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .navlinks ul {
-        flex-direction: column;
-        text-align: center;
+      flex-direction: column;
+      text-align: center;
     }
-
+  
     .navlinks li {
-        margin: 5px
+      margin: 5px;
     }
-
+  
     /* PAGINA INICIO */
     .contenedor-banner {
-        max-width: 100%;
-        height: 400px;
-        background-size: 100% 100%;
+      max-width: 100%;
+      height: 400px;
+      background-size: 100% 100%;
     }
-
+  
+    .contenedor-banner img {
+      height: 100%;
+    }
+  
     .info {
-        top: 15%;
-        left: 0;
-        height: 100%;
+      top: 13%;
+      left: 0;
+      height: auto;
     }
-
+  
     .info h1 {
-        font-size: 30px;
+      font-size: 30px;
     }
-    
+  
     .info p {
-        font-size: 20px;
+      font-size: 20px;
     }
-
+  
     /* PAGINA PRODUCTOS  */
     .menu__titulo {
-        font-size: 25px;
-        width: 100%;
+      font-size: 25px;
+      width: 100%;
     }
-
+  
     .menu__categoria {
-        text-align: center;
+      text-align: center;
     }
-
+  
     .item {
-        padding: 0;
+      padding: 0;
     }
-
+  
     /* PAGINA RECETAS */
     .recetas-videos {
-        width: 100%;
+      width: 100%;
     }
-
+  
     /* PAGINA NOSOTROS */
     .nosotros-pre1 {
-        flex-direction: column;
-        text-align: center;
-        justify-content: normal;
+      flex-direction: column;
+      text-align: center;
+      justify-content: normal;
     }
-
+  
     .nosotros-pre1 p {
-
-        font-weight: bold;
-        margin: 16px;
+      font-weight: bold;
+      margin: 16px;
     }
-
+  
     .nosotros-pre1 img {
-        margin: 0;
-        width: 100%;
+      margin: 0;
+      width: 100%;
     }
-
+  
     .nosotros-sub2 {
-        width: 100%;
-        text-align: center;
-        margin-top: 100px;
-        font-size: 1rem;
+      width: 100%;
+      text-align: center;
+      margin-top: 100px;
+      font-size: 1rem;
     }
-
+  
     .nosotros-pre2 {
-        flex-direction: column;
-        justify-content: normal;
-        align-items: center;
+      flex-direction: column;
+      justify-content: normal;
+      align-items: center;
     }
-
+  
     .nosotros-pre2 p {
-        font-weight: bold;
-        margin: 16px;
-        text-align: center;
-        justify-content: center;
+      font-weight: bold;
+      margin: 16px;
+      text-align: center;
+      justify-content: center;
     }
-
+  
     .nosotros-pre2 img {
-        margin: 0;
-        width: 100%;
+      margin: 0;
+      width: 100%;
     }
-
+  
     /* PAGINA CONTACTO */
     .contacto {
-        margin: 100px 0;
+      margin: 100px 0;
     }
-
+  
     .contacto_seccion1 {
-        margin: 10px;
-        padding: 0;
+      margin: 10px;
+      padding: 0;
     }
-
+  
     .row {
-        margin: 1rem;
+      margin: 1rem;
     }
-
+  
     .col-12 form {
-        margin: 1rem;
+      margin: 1rem;
     }
-
+  
     .col-12 .mb-3 {
-        width: 100%;
+      width: 100%;
     }
-
+  
     .contacto_seccion2 {
-        padding: 0;
-        margin: 0;
+      padding: 0;
+      margin: 0;
     }
-
+  
     .sub_ubicacion {
-        margin: 1rem 0;
+      margin: 1rem 0;
     }
-
+  
     /*FOOTER */
     .footer {
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        align-content: center;
-        text-align: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: center;
+      text-align: center;
     }
-
+  
     .datos_contenedor {
-        margin: 50px 0 10px;
+      margin: 50px 0 10px;
     }
-
-
+  
     .direccion span {
-        margin: 2px;
+      margin: 2px;
     }
-
+  
     .horario h3,
     .horario span {
-        margin: 2px;
+      margin: 2px;
     }
-
+  
     .logo2 {
-        margin: 10px 0;
+      margin: 10px 0;
     }
-
+  
     .redes_sociales {
-        margin: 10px 0;
+      margin: 10px 0;
     }
-}
+  }
+  
+  @media (min-width: 342px) and (max-width: 599px) {
+    .info {
+      top: 18%;
+      left: 0;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 371px) and (max-width: 599px) {
+    .info {
+      top: 20%;
+      left: 0;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 526px) and (max-width: 599px) {
+    .info {
+      top: 25%;
+      left: 0;
+      height: auto;
+    }
+  }

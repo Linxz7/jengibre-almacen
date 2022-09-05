@@ -8,49 +8,48 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     color: white;
-}
-
-.datos_contenedor {
+  }
+  
+  .datos_contenedor {
     margin: 50px 0;
-}
-
-.direccion,
-.horario,
-.telefono {
+  }
+  
+  .direccion,
+  .horario,
+  .telefono {
     padding: 5px;
-}
-
-div h1,
-h2 {
+  }
+  
+  div h1,
+  h2 {
     font-size: 25px;
     font-weight: bold;
-}
-
-.logo2 {
+  }
+  
+  .logo2 {
     margin: 50px 50px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-
-}
-
-.logo2 img {
+  }
+  
+  .logo2 img {
     height: 200px;
     width: 200px;
-}
-
-.redes_sociales {
+  }
+  
+  .redes_sociales {
     margin: 70px 0;
     text-align: center;
-}
-
-.redes_sociales__nav {
+  }
+  
+  .redes_sociales__nav {
     padding: 5px;
-}
-
-.copyrights {
+  }
+  
+  .copyrights {
     width: 100%;
     text-align: center;
     margin: 30px;
-}
+  }
